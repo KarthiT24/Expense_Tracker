@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\helper\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:helper\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\models\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:models\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-07T06:19:30.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Helper\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Helper\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Helper\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Helper\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:56:10.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\UserRegisterDTO.cs",
+              "RelativeToolTip": "Models\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:30:33.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:24:46.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\UserLoginDTO.cs",
+              "RelativeToolTip": "Models\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:21:30.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:21:20.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseTracker.csproj",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\ExpenseTracker.csproj",
+              "RelativeDocumentMoniker": "ExpenseTracker.csproj",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\ExpenseTracker.csproj",
+              "RelativeToolTip": "ExpenseTracker.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwAoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T10:27:53.217Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
