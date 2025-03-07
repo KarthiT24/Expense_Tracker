@@ -4,7 +4,7 @@ namespace Expense_Tracker.Models
 {
     public class User
     {
-        public int UsertId { get; set; }
+        public int UserId { get; set; }
 
         public string UserName { get; set; }
 
