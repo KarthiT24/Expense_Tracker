@@ -7,8 +7,8 @@ namespace Expense_Tracker.Services.Interfaces
     {
         Task<bool> AddFoodExpense(FoodExpenseDTO foodExpenseDTO);
         Task<bool> RemoveFoodExpense(int foodExpenseId);
-        Task<int> GetTotalFoodExpense(int userId, DateTime date);
+        Task<double> GetTotalFoodExpense(int userId, DateTime date);
         Task<IEnumerable<FoodExpense>> GetAllFoodExpenseOfTheDay(int userId, DateTime date);
-        Task<bool> UpdateFoodExpenseById(int FoodExpenseId, FoodExpenseDTO foodExpenseDTO);
+        Task<bool> UpdateFoodExpenseById(int FoodExpenseId, double amount);
     }
 }

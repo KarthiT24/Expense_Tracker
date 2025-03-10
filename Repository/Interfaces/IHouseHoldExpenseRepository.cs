@@ -7,7 +7,7 @@ namespace Expense_Tracker.Repository.Interfaces
     {
         Task<bool> AddHouseHoldExpense(HouseHoldExpenseDTO HouseHoldExpenseDTO);
         Task<bool> RemoveHouseHoldExpense(int HouseHoldExpenseId);
-        Task<int> GetTotalHouseHoldExpense(int userId, DateTime date);
+        Task<double> GetTotalHouseHoldExpense(int userId, DateTime date);
         Task<IEnumerable<HouseHoldExpenses>> GetAllHouseHoldExpenseOfTheDay(int userId, DateTime date);
         Task<bool> UpdateHouseHoldExpenseById(int HouseHoldExpenseId, HouseHoldExpenseDTO HouseHoldExpenseDTO);
     }
