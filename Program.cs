@@ -1,4 +1,8 @@
 using Expense_Tracker.Helper;
+using Expense_Tracker.Repository.Implementations;
+using Expense_Tracker.Repository.Interfaces;
+using Expense_Tracker.Services.Implementations;
+using Expense_Tracker.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -59,6 +63,9 @@ namespace Expense_Tracker
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped<JwtTokenGenerator>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
+
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())

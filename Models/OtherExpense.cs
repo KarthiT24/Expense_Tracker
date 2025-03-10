@@ -14,8 +14,13 @@ namespace Expense_Tracker.Models
         [Required]
         public string expenseName { get; set; }
 
-        public DateTime date { get; set; } = DateTime.Now;
+        [Required, ForeignKey("DateReference")]
+        public DateTime date { get; set; } = DateTime.Now.Date;
+
+        [Required]
         public int month { get; set; } = DateTime.Now.Month;
+
+        [Required]
         public int year { get; set; } = DateTime.Now.Year;
 
         [Required]
