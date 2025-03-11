@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\repository\\interfaces\\itravelexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:repository\\interfaces\\itravelexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\repository\\implementations\\foodexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:repository\\implementations\\foodexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\services\\implementations\\foodexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:services\\implementations\\foodexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\services\\interfaces\\ifoodexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:services\\interfaces\\ifoodexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\repository\\interfaces\\ifoodexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|solutionrelative:repository\\interfaces\\ifoodexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD8CF5CE-26A4-402F-AA56-2853A96E571B}|ExpenseTracker.csproj|c:\\users\\2368614\\source\\repos\\expense tracker\\services\\interfaces\\itravelexpenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITravelExpenseService.cs",
-              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\ITravelExpenseService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\ITravelExpenseService.cs",
-              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\ITravelExpenseService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\ITravelExpenseService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IFoodExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\IFoodExpenseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFoodExpenseService.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\IFoodExpenseService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFoodExpenseService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:26:14.744Z",
+              "WhenOpened": "2025-03-10T12:02:05.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFoodExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Interfaces\\IFoodExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IFoodExpenseRepository.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Interfaces\\IFoodExpenseRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IFoodExpenseRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:01:51.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ITravelExpenseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Interfaces\\ITravelExpenseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\ITravelExpenseRepository.cs",
-              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Interfaces\\ITravelExpenseRepository.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\ITravelExpenseRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAABjAAAAAAAAAA==",
+              "Title": "FoodExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Implementations\\FoodExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\FoodExpenseRepository.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Repository\\Implementations\\FoodExpenseRepository.cs",
+              "RelativeToolTip": "Repository\\Implementations\\FoodExpenseRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwFUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:26:09.012Z",
+              "WhenOpened": "2025-03-10T11:34:48.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Implementations\\FoodExpenseService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\FoodExpenseService.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Implementations\\FoodExpenseService.cs",
+              "RelativeToolTip": "Services\\Implementations\\FoodExpenseService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwB0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:33:52.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITravelExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\ITravelExpenseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ITravelExpenseService.cs",
+              "ToolTip": "C:\\Users\\2368614\\source\\repos\\Expense Tracker\\Services\\Interfaces\\ITravelExpenseService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ITravelExpenseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:26:14.744Z",
               "EditorCaption": ""
             }
           ]

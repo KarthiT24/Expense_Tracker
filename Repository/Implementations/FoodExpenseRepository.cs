@@ -11,14 +11,18 @@ namespace Expense_Tracker.Repository.Implementations
     {
         private readonly ApplicationDbContext _context;
 
-        public FoodExpenseRepository(ApplicationDbContext context)
+        private readonly ILogger _logger;
+
+        public FoodExpenseRepository(ApplicationDbContext context, ILogger logger)
         {
             _context = context;
+            _logger = logger;
         }
         public async Task<bool> AddFoodExpense(FoodExpenseDTO foodExpenseDTO)
         {
             try
             {
+                _logger.LogInformation("Adding Food Expense: Repository Call");
                 var foodExpense = new FoodExpense
                 {
                     UserId = foodExpenseDTO.UserId,
@@ -29,11 +33,13 @@ namespace Expense_Tracker.Repository.Implementations
                 };
                 await _context.FoodExpenses.AddAsync(foodExpense);
                 await _context.SaveChangesAsync();
+                _logger.LogInformation("Adding Food Expense: Added Successfully");
                 return true;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                _logger.LogError("Adding Food Expense: Failed"+e.Message);
             }
             return false;
         }
@@ -42,10 +48,12 @@ namespace Expense_Tracker.Repository.Implementations
             var FoodExpenses = new List<FoodExpense>();
             try
             {
+                _logger.LogInformation("Getting All Food Expense of the Day: Repository Call");
                 FoodExpenses = await _context.FoodExpenses.Where(x => x.UserId == userId && x.date == date).ToListAsync();
             }
             catch (Exception e)
             {
+                _logger.LogError("Getting All Food Expense of the Day: Failed" + e.Message);
                 Console.WriteLine(e);
             }
             return FoodExpenses;
@@ -55,11 +63,13 @@ namespace Expense_Tracker.Repository.Implementations
         {
             try
             {
+                _logger.LogInformation("Getting Total Food Expense: Repository Call");
                 var totalFoodExpense = await _context.FoodExpenses.Where(x => x.UserId == userId && x.date == date).SumAsync(x => x.amount);
                 return totalFoodExpense;
             }
             catch(Exception e)
             {
+                _logger.LogError("Getting Total Food Expense: Failed" + e.Message);
                 Console.WriteLine(e);
             }
             return 0;
@@ -68,8 +78,9 @@ namespace Expense_Tracker.Repository.Implementations
         public async Task<bool> RemoveFoodExpense(int foodExpenseId)
         {
             try
-            {
-                var FoodExpense = await _context.FoodExpenses.FindAsync(foodExpenseId);
+            { 
+            _logger.LogInformation("Removing Food Expense: Repository Call");   
+            var FoodExpense = await _context.FoodExpenses.FindAsync(foodExpenseId);
                 if (FoodExpense != null)
                 {
                      _context.FoodExpenses.Remove(FoodExpense);
@@ -78,6 +89,7 @@ namespace Expense_Tracker.Repository.Implementations
                 }
             }
             catch (Exception e) { 
+                _logger.LogError("Removing Food Expense: Failed" + e.Message);
                 Console.WriteLine(e);
             }
             return false;
@@ -87,6 +99,7 @@ namespace Expense_Tracker.Repository.Implementations
         {
             try
             {
+                _logger.LogInformation("Updating Food Expense: Repository Call");
                 var FoodExpense = await _context.FoodExpenses.FindAsync(FoodExpenseId);
                 if (FoodExpense != null) {
                     FoodExpense.amount = amount;
@@ -97,6 +110,7 @@ namespace Expense_Tracker.Repository.Implementations
             }
             catch(Exception e)
             {
+                _logger.LogError("Updating Food Expense: Failed" + e.Message);
                 Console.WriteLine(e);
             }
             return false;

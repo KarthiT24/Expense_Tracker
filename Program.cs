@@ -65,7 +65,9 @@ namespace Expense_Tracker
             builder.Services.AddScoped<JwtTokenGenerator>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
-
+            builder.Logging.ClearProviders(); 
+            builder.Logging.AddConsole(); 
+            builder.Logging.AddDebug(); 
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())

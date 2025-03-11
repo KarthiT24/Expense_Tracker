@@ -11,7 +11,7 @@ namespace Expense_Tracker.Models
         [ForeignKey("User")]
         public int UserId { get; set; }
 
-        [Required, ForeignKey("DateReference")]
+        [Required, ForeignKey("DateReference"), Column(TypeName = "Date")]
         public DateTime date { get; set; } = DateTime.Now.Date;
 
         [Required]
